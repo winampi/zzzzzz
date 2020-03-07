@@ -1,0 +1,16 @@
+.features {
+  background: url("../../img/bg/features.png") center center / cover no-repeat;
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.features__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.features__item {
+  width: calc(100% / 3 - 26px);
+}

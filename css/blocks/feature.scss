@@ -1,0 +1,36 @@
+.feature__title {
+  color: #2f3234;
+  @include lifehack;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.14px;
+  flex: 20;
+  margin-bottom: 20px;
+}
+
+
+.feature__text {
+  flex: 40;
+  opacity: 0.8;
+  color: #2f3234;
+  @include ubuntu;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24.02px;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature__image {
+  display: flex;
+  justify-content: center;
+  flex: 40;
+  margin-bottom: 30px;
+}
+
+.feature__image-element {
+  padding-top: 10px;
+  max-height: 100%;
+} 
